@@ -70,7 +70,7 @@ app.get("/posts/:postName", function(req,res){
 
 
 
-app.listen(process.env.POST||3000,function(){
+app.listen(process.env.PORT||3000,function(){
     console.log("Server is LITT");
    
 });
